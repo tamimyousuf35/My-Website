@@ -50,7 +50,27 @@ body{
   text-align: center;
   font-size: 50px;
 }
-
+.wel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.wel-text{
+    margin-left: 150px;
+    
+}
+.wel-detail{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 25px;
+}
+.wel-title{
+    font-size: 40px;
+}
+.wel-img{
+    margin-right: 150px;
+    border-radius: 50px;
+}
 
 
 
