@@ -1,0 +1,56 @@
+
+.inter-common-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 35px;
+}
+
+.btn{
+    background-color: #4E47FF;
+    color: aliceblue;
+    border: none;
+    padding: 16px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+
