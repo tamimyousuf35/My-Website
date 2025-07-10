@@ -7,6 +7,7 @@
 }
 body{
     margin: 0 auto;
+    background-color: #f5f8ff;
 }
 .nav{
     display: flex;
@@ -98,14 +99,17 @@ body{
 .users details{
     color: rgba(0, 0, 0, 0.5);
 }
-.review-container{
+.review-container {
     display: flex;
     width: 400px;
-    box-shadow: 0 4px 10px black;
+    border: 1.5px solid #888; /* darker gray, slightly thicker */
     margin: 5px;
     padding: 7px;
     border-radius: 5px;
+    background-color: white;
 }
+
+
 .girl{
     display: flex;
     align-items: center;
@@ -126,6 +130,82 @@ body{
 .sobi{
     border-radius: 50%;
 }
+
+.msg {
+    margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lets{
+    font-size: 100px;
+}
+
+.inputs input,
+.inputs textarea {
+  width: 100%;              
+  max-width: 600px;         
+  padding: 15px 20px;       
+  font-size: 18px;          
+  border: 1px solid #ccc;   
+  border-radius: 8px;       
+  margin-bottom: 20px;      
+  box-sizing: border-box;   
+}
+
+.inputs textarea {
+  height: 150px;            
+  resize: vertical;         
+}
+
+.navigate{
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.navigate {
+  list-style: none;          
+  display: flex;             
+  gap: 30px;                 
+  padding: 0;
+  margin: 0;
+}
+
+.navigate li a {
+  text-decoration: none;     
+  color: rgba(137, 135, 161, 1);              
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a {
+  color: rgba(137, 135, 161, 1) !important;
+}
+
+.footer-details{
+    color: rgba(137, 135, 161, 1);
+}
+
+.footer-logo{
+    color: #4E47FF;
+    font-size: 100px;
+}
+
+.footer {
+  text-align: center;           /* centers text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* centers block elements */
+  padding: 40px 20px;
+  background-color: white;    /* optional */
+  font-family: sans-serif;
+  
+}
+
+
 
 
 
