@@ -98,6 +98,37 @@ body{
 .users details{
     color: rgba(0, 0, 0, 0.5);
 }
+.review-container{
+    display: flex;
+    width: 400px;
+    box-shadow: 0 4px 10px black;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.girl{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+.w-u-s {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 45px;
+  font-size: 100px;
+}
+.all-review{
+    display: flex;
+    justify-content: center;
+}
+
+.sobi{
+    border-radius: 50%;
+}
+
+
+
 
 
 
