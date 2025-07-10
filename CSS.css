@@ -43,7 +43,7 @@ body{
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url(Hero-bg.png);
+  background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
